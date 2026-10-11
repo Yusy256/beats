@@ -1,0 +1,160 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body {
+background-color: aqua;
+
+}
+.navbar{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    padding: 10px;
+    height: 50px;;
+}
+
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    gap: 20px;
+    
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    word-spacing: 20px;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 20px;
+    padding: 20px;
+    margin-left: 30px;
+}
+h1:hover{
+    color: blue;
+    
+}
+.form{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #45a049;
+    
+}
+button{
+    color: aqua;
+    background-color: azure;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+button:hover{
+    color: blueviolet;
+    background-color: blanchedalmond;
+    transform:translateY(-5PX);
+    
+}
+input{
+    color: rgb(78, 47, 24);
+    border-radius: 5px;
+    border-color: antiquewhite;
+    text-align: center;
+}
+input:hover{
+    transform:translateY(5px)
+}
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 20px;
+    padding: 30px;
+    background-color: aqua;
+}
+.card {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    transition: transform 0.3s ease;
+    text-align: center; 
+    border-color: #45a049; } 
+.card-content{
+    border-radius: 20px;
+} 
+.card img{
+    border-radius: 20px;
+}  
+.card:hover{
+    transform: translateY(-20px);
+}
+.service{
+    width: 300px;
+    background-color: #45a049;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+
+}
+.bbtn{
+    color: blueviolet;
+    background-color: wheat;
+    margin-top: 5px;
+    border-color: none;
+}
+.bbtn:hover{
+    color: bisque;
+    background-color: brown;
+    transform: none;
+    
+}
+.service:hover input{
+    transform: none;
+}
+.footer{
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.btv{
+    color: #ffffff;
+    border: #45a049;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1px;
+    background-color: #45a049;
+    
+    
+}
+.btv:hover{
+    color: aqua;
+    background-color:whitesmoke;
+    border-style: none;
+    transform:translateY(-5PX);
+}
+.btv:visited{
+    color: aquamarine;
+    
+}
+    
+   
+
